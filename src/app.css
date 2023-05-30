@@ -1,0 +1,615 @@
+.blockofpopularcomp::-webkit-scrollbar{
+    display: none;
+}
+
+.blockoflatestmovies::-webkit-scrollbar{
+    display: none;
+}
+
+
+.blockoftrendingcomp::-webkit-scrollbar{
+    display: none;
+}
+
+
+.navbar{
+    width:100vmax;
+    height:5vmax;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:#032541;
+}
+
+.nav1{
+    display:flex;
+    align-items:center
+}
+
+.nav1navlinktmdb{
+    text-decoration :none;
+      font-family :gilroy ExtraBold;
+      font-size:35px;
+      margin-left:20px;
+      display:flex;
+      color: #18B7D9
+}
+
+
+.block{
+    padding:0vmax 2vmax;
+    margin-left:20px;
+    height:2vmax;
+    border-radius:20px;
+    background-color:#18B7D9;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+
+.nav1navlinklatestmovie{
+    text-decoration :none;
+      font-family :gilroy Medium;
+      font-size:20px;
+      margin-left:40px;
+      display:flex;
+      color: white;
+}
+
+
+
+.nav1navlinkpopularmovie{
+    text-decoration :none;
+      font-family :gilroy Medium;
+      font-size:20px;
+      margin-left:40px;
+      display:flex;
+      color: white;
+}
+
+.nav2{
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+
+.nav2eyeicon{
+    text-decoration :none;
+    font-family :gilroy Medium;
+    font-size:20px;
+    margin-left:40px;
+    display:flex;
+    color:white
+}
+
+.nav2loginstyle{
+    text-decoration :none;
+    font-family :gilroy Medium;
+    font-size:20px;
+    margin-left:40px;
+    display:flex;
+    color:white
+}
+
+.nav2jointmdbstyle{
+    text-decoration :none;
+    font-family :gilroy Medium;
+    font-size:20px;
+    margin-left:40px;
+    display:flex;
+    color:white
+}
+
+.nav2iconstyle{
+    text-decoration :none;
+    font-family :gilroy Medium;
+    font-size:25px;
+    margin-left:25px;
+    display:flex;
+    color:white;
+    margin-right: 40px;
+}
+
+
+/* ............... Ajax component style */
+
+
+.ajaxcompstyle{
+    padding:3.3vmax;
+    width:100vmax; 
+    height:12vmax;
+    background-color:#0279AD;
+}
+
+
+.ajaxcompwelcomestyle{
+    font-size:50px;
+    font-family:gilroy SemiBold;
+    color:white
+}
+
+.ajaxcompparastyle{
+    font-family:gilroy SemiBold;
+    font-size:25px;
+    color:white;
+}
+
+
+/* ...........  Popular component */
+.popularcompstyle{
+    width:40vmax;
+    height:45vmax;
+    background-color:white;
+    padding:2vmax 4vmax;
+}
+
+.popularcomph1style{
+    font-family:gilroy SemiBold;
+    font-size:2vmax;
+    color:#0279AD;
+}
+
+.blockofpopularcomp{
+    width:100vmax;
+    display:flex;
+    overflow-x:auto;
+}
+
+
+.imageliststyleofpopularcomp{
+    width:20vmax;
+    height:32vmax;
+    margin-right:20px;
+    margin-top:40px;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0.5px solid grey;
+    border-radius:10px;
+}
+
+.imagelistimagestyleofpopularcomp{
+    width:100%;
+    height:90%;
+    object-fit:cover;
+}
+
+.imagelistimagecontentstyleofpopularcomp{
+    height:3vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:Black;
+    font-family: gilroy SemiBold;
+    margin-bottom: none;
+}
+
+
+/* ..............latestmovies style */
+
+.latestcompstyle{
+    padding:2vmax 4vmax;
+    width:100vmax;
+    height:40vmax;
+    background-image:url("https://images.unsplash.com/photo-1676553138763-6f83fac7094d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80");
+    background-position:center;
+    background-size:cover;
+}
+
+
+.latestcomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:white;
+}
+
+.blockoflatestmovies{
+    display:flex;
+    align-items:center;
+    width:95vmax;
+    height:30vmax;
+    margin-top: 35px;
+    overflow-x:auto
+}
+
+.imageliststyleoflatestcomp{
+    width:20vmax;
+    height:30vmax;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0.5px solid grey;
+    border-radius:10px;
+}
+
+.imagelistimagestyleoflatestcomp{
+    width:100%;
+    height:90%;
+    object-fit:cover;
+}
+
+
+.imagelistimagecontentstyleoflatestcomp{
+    height:3vmax;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:black;
+    font-size:20px;
+    font-family:gilroy SemiBold;
+}
+
+
+/* ................... trending movie style */
+
+
+.trendingcompstyle{
+    width:100vmax;
+    height:45vmax;
+    padding:2vmax 4vmax;
+
+}
+
+.trendingcomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:#0279AD;
+    /* margin-top:20px;
+    margin-left:35px; */
+}
+
+.blockoftrendingcomp{
+    display:flex;
+    align-items:center;
+    width:95vmax;
+    height:30vmax;
+    overflow-x:auto;
+    margin-top: 30px;
+}
+
+.imageliststyleoftrendingcomp{
+    margin-left:1vmax;
+    width:20vmax;
+    height:30vmax;
+    box-Shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0.5px solid grey;
+    border-radius:10px;
+}
+
+.imagelistimagestyleoftrendingcomp{
+    width:100%;
+    height:90%;
+    object-fit: cover;
+}
+
+.imagelistimagecontentstyleoftrendingcomp{
+    height:3vmax;
+    display:flex;
+    justify-content:center;
+    align-Items:center;
+    color:black;
+    font-size: 20px;
+    width:100%;
+    font-family: gilroy SemiBold;
+}
+
+
+/* ................. Footer style */
+
+
+.footercompstyle{
+    padding:2vmax 4vmax;
+    width:100vmax;
+    height:20vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-color:#032541;
+}
+
+.footersection1{
+    padding:1vmax;
+}
+
+.footersizemedium{
+    font-size:25px;
+    color:white;
+    font-family:gilroy ExtraBold;
+}
+
+.footersizesmall{
+    font-size:20px;
+    color:white;
+    font-family:gilroy;
+}
+
+
+.footersection2{
+    padding:1vmax;
+    margin-left: 20px;
+}
+
+
+
+
+/* ................latestpage style */
+
+
+.latestpagecompstyle{
+    width:100vmax;
+    height:100vmax;
+    padding:1vmax 4vmax;
+}
+
+
+.latestpagecomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:#0279AD;
+    margin-top:30px;
+    margin-left:35px
+}
+
+.blockoflatestpagestyle{
+    display:flex;
+    flex-wrap: wrap;
+    width:100vw;
+    height:100vw;
+    flex:wrap;
+    margin-left:55px;
+}
+
+
+.imageliststyleoflatestpagecomp{
+    width:20vmax;
+    height:32vmax;
+    margin-right:20px;
+    margin-top:40px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0.5px solid grey;
+    border-radius:10px;
+}
+
+.imagelistimagestyleoflatestpagecomp{
+    width:100%;
+    height:90%;
+    object-fit:cover
+}
+
+.imagelistimagecontentstyleoflatestpagecomp{
+    height:3vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:Black;
+
+}
+
+
+
+/* ..................popularpage style */
+
+
+.popularpagecompstyle{
+    width:100vmax;
+    height:100vmax;
+    padding:1vmax 4vmax;
+}
+
+.popularpagecomph1style{
+    font-size:35px;
+    font-family:gilroy SemiBold;
+    color:#0279AD;
+    margin-top:20px;
+    margin-left:35px
+}
+
+
+.blockofpopularpagestyle{
+    display:flex;
+    flex-wrap: wrap;
+    width:100vw;
+    height:100vw;
+    flex:wrap
+}
+
+.imageliststyleofpopularpagecomp{
+    width:20vmax;
+    height:30vmax;
+    margin-right:0px;
+    margin-top:40px;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border:0.5px solid grey;
+    border-radius:10px;
+}
+
+.imagelistimagestyleofpopularpagecomp{
+    width:100%;
+    height:90%;
+    object-fit:cover;
+}
+
+.imagelistimagecontentstyleofpopularpagecomp{
+    height:3vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:Black;
+}
+
+
+/* ..........................MovieDetails styel */
+.moviedetailstyle{
+    width:100vmax;
+    height:38vmax;
+    padding:5vmax;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background-position:center;
+    background-size:cover;
+
+}
+
+.moviedetailsimagestyle{
+    width:35vmax;
+    height:35vmax;
+    background-Size:cover;
+    background-position: center;
+    border-top-left-radius:15px;
+    border-bottom-left-radius:15px;
+    overflow:hidden;
+}
+.moviedetailsimagestyleimg{
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.moviedetailcontentstyle{
+    width:50vmax;
+    height:35vmax;
+    padding:1.5vmax;
+    display:flex;
+    flex-direction:column;
+    border-top-right-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.moviedetailcontenth1style{
+    font-size:30px;
+    font-family:gilroy SemiBold;
+    color:#032541
+}
+
+.moviedetailcontenth3style{
+    font-size:30px;
+    font-family:gilroy SemiBold;
+    color:#032541
+}
+
+.moviedetailcontentpstyle{
+    font-size:10px;
+    font-family:gilroy SemiBold;
+    color:#032541
+}
+
+
+.moviedetailcontentbottomstyle{
+    font-size:20px;
+    font-family:gilroy SemiBold;
+    color:black;
+}
+/* .......................responsive style @media */
+
+
+
+
+
+
+@media only screen and (max-width: 1024px) {
+    
+    .nav1{
+        margin-bottom: 15px;
+    }
+    .nav1navlinktmdb{
+     font-size: 14px;   
+    }
+    .nav2{
+        display: none;
+    }
+    .block{
+        display: none;
+    }
+    .nav1navlinklatestmovie {
+        margin-left: 46px;
+        font-size: 13px;
+    }
+    .nav1navlinkpopularmovie{
+        margin-left: 13px;
+        font-size: 13px;
+    }
+    .ajaxcompwelcomestyle{
+        font-size: 16px;
+    }
+    .ajaxcompparastyle{
+        font-size: 9px;
+    }
+    .popularcompstyle{
+        padding: 2vmax 3vmax;
+    }
+    .imageliststyleofpopularcomp{
+        margin-top: 10px;
+    }
+    .imagelistimagecontentstyleofpopularcomp{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 8px;
+        height: 5vmax;
+    }
+    .latestcompstyle{
+        height: 45vmax;
+
+    }
+    .latestcomph1style{
+        font-size: 16px;
+    }
+    .imagelistimagecontentstyleoflatestcomp{
+        font-size: 8px;
+        height: 5vmax;
+    }
+    .trendingcomph1style{
+        font-size: 16px;
+    }
+    .footercompstyle{
+        height: 45vmax;
+
+    }
+    .imagelistimagecontentstyleoftrendingcomp{
+        height: 5vmax;
+        font-size: 8px;
+    }
+    .footersizemedium{
+        font-size: 16px;
+    }
+    .footersizesmall{
+        font-size: 7px;
+    }
+    .footercompstyle{
+        padding: 0px;
+        width: 80vmax;
+    }
+    .latestpagecomph1style{
+        font-size: 23px;
+        margin-top: 35px;
+        margin-left: -5px;
+    }
+    .blockoflatestpagestyle{
+        margin-left: -14px;
+    }
+    .imagelistimagecontentstyleoflatestpagecomp{
+        height: 5vmax;
+        font-size: 8px;
+    }
+    .popularpagecomph1style{
+        font-size: 23px;
+        margin-top: 35px;
+        margin-left: -5px;
+    }
+    .blockofpopularpagestyle{
+        margin-left: -20px;
+    }
+    .imagelistimagecontentstyleofpopularpagecomp{
+        height: 5vmax;
+        font-size: 8px;
+    }
+    .moviedetailstyle{
+        flex-direction: column;
+        height: 78vmax;
+        width: 60vmax;
+        padding:0px;
+    }
+
+    
+}
+
